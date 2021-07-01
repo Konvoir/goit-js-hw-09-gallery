@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Konvoir/goit-js-hw-09-gallery.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Konvoir",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Konvoir/goit-js-hw-09-gallery/issues"
@@ -20,5 +20,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "joi": "^17.4.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.7"
   }
 }
