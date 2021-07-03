@@ -1,21 +1,33 @@
 {
-  "name": "node-tut",
-  "version": "1.0.0",
-  "description": "my first test node",
+  "name": "goit-js-hw-09-gallery",
+  "version": "1.1.0",
+  "description": "",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /parcel-project-template/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Konvoir/goit-js-hw-09-gallery.git"
   },
+  "keywords": [],
   "author": "Konvoir",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Konvoir/goit-js-hw-09-gallery/issues"
   },
-  "homepage": "https://github.com/Konvoir/goit-js-hw-09-gallery#readme"
+  "homepage": "https://github.com/Konvoir/goit-js-hw-09-gallery#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8",
+    "@babel/preset-env": "^7.14.7"
+  }
 }
