@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\js-modules\\module9\\.cache"
+		},
+		{
+			"path": "..\\..\\js-modules\\module9\\.github"
+		},
+		{
+			"path": "..\\..\\js-modules\\module9\\dist"
+		},
+		{
+			"path": "..\\..\\js-modules\\module9\\images"
+		},
+		{
+			"path": "..\\..\\js-modules\\module9\\js"
+		},
+		{
+			"path": "..\\..\\js-modules\\module9\\node_modules"
+		},
+		{
+			"path": "..\\..\\js-modules\\module9\\src"
+		}
+	],
+	"settings": {}
+}

@@ -1,9 +1,9 @@
 <article class="example">
-  <h1>HTML-фрагменты</h1>
+  <h1>mod-9</h1>
 
   <!-- Путь к изображениям из HTML-фрагмента такой, как из файла index.html -->
-  <img src="images/demo.jpg" alt="" width="320" />
-  <p>
+  <!-- <img src="../images/demo.jpg" alt="" width="320" /> -->
+  <!-- <p>
     Плагин
     <a
       href="https://github.com/posthtml/posthtml-include"
@@ -16,8 +16,33 @@
     хранятся в папке
     <code>src/partials</code>. Добавление происходит при компиляции файлов страниц, например
     <code>index.html</code>.
-  </p>
+  </p> -->
 
+  <ul class="gallery js-gallery"></ul>
+<!-- В этот список добавляй элементы галереи -->
+
+
+
+
+<!--  Модальное окно для полноразмерного изображения
+      Для того чтобы открыть, необходимо добавить на div.lightbox CSS-класс is-open
+    -->
+  <div class="lightbox js-lightbox">
+    <div class="lightbox__overlay"></div>
+
+    <div class="lightbox__content">
+      <img class="lightbox__image" src="" alt="" />
+    </div>
+
+    <button
+      type="button"
+      class="lightbox__button"
+      data-action="close-lightbox"
+    ></button>
+  </div>
+
+  
+<!-- 
   <p>
     Этот файл <code>example.html</code> &mdash; пример такого фрагмента, с разметкой определённой
     части главной страницы. Это очень удобно при командной разработке на студенческих проектах,
@@ -27,7 +52,8 @@
   <p>
     Синтаксис добавление фрагмента в главный файл:
     <code> &lt;include src="./partials/имя-файла.html"&gt;&lt;/include&gt; </code>
-  </p>
+  </p> -->
 
-  <div class="background"></div>
+  <!-- <div class="background"></div> -->
 </article>
+<!-- <script src="./lab-9/app.js"></script> -->
